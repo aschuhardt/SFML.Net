@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BC36D4A7-0B3D-4F5A-8F68-6510D97A066B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{411B31C2-0C4A-462B-A03B-AC5FB3BAAFBF}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SFML.NET_Core", "src\SFML.NET_Core\SFML.NET_Core.xproj", "{13D4FE49-DC49-432D-AAA4-BBBFC06EFCC7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13D4FE49-DC49-432D-AAA4-BBBFC06EFCC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13D4FE49-DC49-432D-AAA4-BBBFC06EFCC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13D4FE49-DC49-432D-AAA4-BBBFC06EFCC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13D4FE49-DC49-432D-AAA4-BBBFC06EFCC7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{13D4FE49-DC49-432D-AAA4-BBBFC06EFCC7} = {BC36D4A7-0B3D-4F5A-8F68-6510D97A066B}
+	EndGlobalSection
+EndGlobal
