@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SFML.NET_Core", "src\SFML.NET_Core\SFML.NET_Core.xproj", "{13D4FE49-DC49-432D-AAA4-BBBFC06EFCC7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{675B9F46-A021-4B78-BB6A-1EA4C898B257}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WindowExample", "WindowExample\WindowExample.xproj", "{18FA68CA-65F3-4770-A042-67415A2DDAEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +26,16 @@ Global
 		{13D4FE49-DC49-432D-AAA4-BBBFC06EFCC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13D4FE49-DC49-432D-AAA4-BBBFC06EFCC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13D4FE49-DC49-432D-AAA4-BBBFC06EFCC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18FA68CA-65F3-4770-A042-67415A2DDAEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18FA68CA-65F3-4770-A042-67415A2DDAEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18FA68CA-65F3-4770-A042-67415A2DDAEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18FA68CA-65F3-4770-A042-67415A2DDAEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{13D4FE49-DC49-432D-AAA4-BBBFC06EFCC7} = {BC36D4A7-0B3D-4F5A-8F68-6510D97A066B}
+		{18FA68CA-65F3-4770-A042-67415A2DDAEC} = {675B9F46-A021-4B78-BB6A-1EA4C898B257}
 	EndGlobalSection
 EndGlobal

@@ -7,10 +7,13 @@
   },
 
   "frameworks": {
-    "netstandard1.6": {
+    "netcoreapp1.0": {
       "imports": "dnxcore50"
     }
   },
 
-  "buildOptions": { "allowUnsafe": true }
+  "buildOptions": {
+    "allowUnsafe": true
+  }
+
 }
